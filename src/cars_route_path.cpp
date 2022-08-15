@@ -64,7 +64,7 @@ void RoadRouteCode::displayRoute(int parent[], int j)
 /*!
     * A utility function to print the constructed distance array
 	* @param dist[]      [in]  Distance array 
-    * @param parent[]    [in]  Parent array to store shortest path tree
+        * @param parent[]    [in]  Parent array to store shortest path tree
 	* @param src         [in]  Source node 
 */
 void RoadRouteCode::printSolution(int dist[], int n, int parent[], int src)
@@ -81,7 +81,7 @@ void RoadRouteCode::printSolution(int dist[], int n, int parent[], int src)
 /*!
 	* Function that implements Dijkstra's single source shortest path algorithm for a graph represented using adjacency matrix representation
 	* @param graph[V][V]      [in]  2D array containing all weights and combinations of vertices and edges 
-    * @param outArray         [in]  Ouput array to store shortest paths
+        * @param outArray         [in]  Ouput array to store shortest paths
 	* @param src              [in]  Source node 
 */
 void RoadRouteCode::dijkstra(int graph[V][V], int src, int *outArray, int outSize)
