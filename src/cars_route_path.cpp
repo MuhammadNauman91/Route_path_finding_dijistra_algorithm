@@ -137,6 +137,10 @@ void RoadRouteCode::dijkstra(int graph[V][V], int src, int *outArray, int outSiz
 	//printSpecificSolution(dist, V,  parent, src,p);
 }
 
+/*
+	Functionality Handling Testcases 
+*/
+
 // Test Case 1:
 int findShortPathABC(int shortPathArray[][5], int size)
 {
@@ -153,10 +157,6 @@ int findShortPathAD(int shortPathArray[][5], int size)
     
     return shortPathValue;
 }
-
-/*
-	Functionality Handling Testcases 
-*/
 // Test Case 3:
 int findShortPathADC(int shortPathArray[][5], int size)
 {
