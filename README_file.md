@@ -83,6 +83,8 @@ In fact, even if both of these routes do happen to exist, they are distinct and 
 
 #### Diagram
 
+![image](https://user-images.githubusercontent.com/43953818/184628561-ebc65c69-680e-4448-8a54-5289aaa568ad.png)
+
 ### Algorithm
 
 Upon analysis of the problem description and a visualisation of the map, it is clear to see that this requires an implementation of Dijkstra’s Shortest Path Algorithm . 
